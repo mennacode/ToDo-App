@@ -13,7 +13,6 @@ export default function App() {
       const todos= await res.json();
 
       setMessage(todos.msg); 
-
     }
      getTodos();
   }, [])

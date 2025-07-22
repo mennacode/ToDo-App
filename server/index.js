@@ -11,7 +11,7 @@ const port= process.env.PORT || 500;
 
 async function startServer() { 
 
-    await connectToMongoDB(); // Ensure the database connection is established before starting the server
+   await connectToMongoDB(); // Ensure the database connection is established before starting the server
     app.listen(port, () => {
         console.log(`Server is running on http://localhost:${port}`);
     });
