@@ -1,3 +1,4 @@
+
 require("dotenv").config(); //use secret variables in secret files
 const  express= require("express");
 const { connectToMongoDB } = require("./database"); // Import the MongoDB connection function
